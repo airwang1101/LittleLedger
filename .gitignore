@@ -1,0 +1,25 @@
+# Explicit publication allowlist. Local backups and generated files stay private.
+/*
+!/.gitignore
+!/README.md
+!/README.en.md
+!/LICENSE
+!/CONTRIBUTING.md
+!/SECURITY.md
+!/PRIVACY.md
+!/THIRD_PARTY_NOTICES.md
+!/scripts/
+!/Resources/
+!/.github/
+!/outputs/
+/outputs/*
+!/outputs/小账本源码/
+/outputs/小账本源码/*
+!/outputs/小账本源码/*.swift
+.DS_Store
+*.json
+*.backup
+*.log
+.env*
+*.pem
+*.key
